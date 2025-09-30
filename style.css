@@ -18,14 +18,6 @@ html {
     font-family: 'Mimo';
     padding: 0;
     font-weight: 20px;
-    text-shadow: -2px 0 #ffffff,
-    0px -2px 0 #ffffff,
-    2px -2px 0 #ffffff,
-    -2px  0px 0 #ffffff,
-    2px  0px 0 #ffffff,
-    -2px  2px 0 #ffffff,
-    0px  2px 0 #ffffff,
-    2px  2px 0 #ffffff;
     margin-left: 20px;
     margin-right: 20px;
     background-color: #000000;
@@ -265,10 +257,6 @@ li {
     background-color: #000000;
     margin-top: 1.5rem;
     font-size: 15.3px;
-    text-shadow:    -1px 0 white,
-                    1px -1px 0 white,
-                    -1px  1px 0 white,
-                    1px  1px 0 white;
     padding-left: 14px;
     margin-left: 20px;
     margin-right: 20px;
@@ -281,7 +269,7 @@ li {
     font-size: 21px; 
     font-weight: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
+    color: #ffffff;
     text-shadow: -2px -2px 0 #ffffff,
     0px -2px 0 #ffffff,
     2px -2px 0 #ffffff,
@@ -292,7 +280,7 @@ li {
     2px  2px 0 #ffffff;
     margin-left: 20px;
     margin-right: 20px;
-    background-color:  #654321;
+    background-color:  #000000;
     width: calc(100% - 40px);
 }
 #sobre {
@@ -392,3 +380,4 @@ li {
     }
 
 }
+
