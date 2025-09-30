@@ -1,4 +1,4 @@
-/* Estilos Gerais e Estrutura */
+
 html {
     font-size: 10px;
 }
@@ -30,8 +30,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    /* REMOVIDO: max-width que limitava a largura */
-    /* REMOVIDO: display flex que estava causando problemas */
+    
+
     min-height: 100vh;
 }
 
@@ -53,7 +53,6 @@ body {
     background-attachment: fixed, fixed;
 }
 
-/* Menu de Navegação */
 nav {
     background-color: #000000;
     padding: 1rem 0;
@@ -107,24 +106,20 @@ nav a:active {
                     1px  1px 0 #d4af37;
 }
 
-/* Seção de Conteúdo Principal - CORRIGIDO PARA CENTRALIZAÇÃO PERFEITA */
+
 .content-section {
-    /* CENTRALIZAÇÃO PERFEITA: Container flexível centralizado */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     
-    /* Posicionamento e espaçamento */
+    
     margin: 80px auto 2rem;
     padding: 20px;
-    
-    /* Largura responsiva e centralizada */
     width: 90%;
     max-width: 800px;
     min-width: 300px;
     
-    /* Estilo visual */
     background-color: white;
     color: #333;
     border-radius: 8px;
@@ -134,20 +129,16 @@ nav a:active {
     font-size: 1.2rem;
     font-weight: bold;
     
-    /* Box model */
     box-sizing: border-box;
     
-    /* Garantir que o conteúdo interno também seja centralizado */
     text-align: center;
 }
 
-/* Ajustar elementos internos para manter a centralização */
 .content-section > * {
     width: 100%;
     max-width: 100%;
 }
 
-/* Estilos de Texto e Títulos */
 .content-section h1 {
     color: #ffffff;
     margin-bottom: 1rem;
@@ -245,7 +236,7 @@ li {
     text-decoration: underline;
 }
 
-/* IDs e Classes Específicas */
+
 #Responsabilidade, 
 #PensamentoCritico,
 #InteligenciaArtificial,
@@ -316,7 +307,6 @@ li {
     outline-offset: 22px;
 }
 
-/* Estilos do TikTok */
 .video-container {
     display: flex;
     justify-content: center;
@@ -348,7 +338,6 @@ li {
     border-radius: 12px;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -372,5 +361,6 @@ li {
     }
 
 }
+
 
 
