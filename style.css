@@ -270,14 +270,6 @@ li {
     font-weight: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    text-shadow: -2px -2px 0 #ffffff,
-    0px -2px 0 #ffffff,
-    2px -2px 0 #ffffff,
-    -2px  0px 0 #FFFFFF,
-    2px  0px 0 #ffffff,
-    -2px  2px 0 #ffffff,
-    0px  2px 0 #ffffff,
-    2px  2px 0 #ffffff;
     margin-left: 20px;
     margin-right: 20px;
     background-color:  #000000;
@@ -380,4 +372,5 @@ li {
     }
 
 }
+
 
