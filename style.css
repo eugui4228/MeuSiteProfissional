@@ -14,7 +14,7 @@ html {
 
 #titulo-principal {
     font-size: 33px;
-    color:#000000;
+    color: #ffffff;
     font-family: 'Mimo';
     padding: 0;
     font-weight: 20px;
@@ -28,7 +28,7 @@ html {
     2px  2px 0 #ffffff;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: #654321;
+    background-color: #000000;
 }
 
 body { 
@@ -261,7 +261,7 @@ li {
 #Facilitador,
 #Inspirador {
     font-weight: bold;
-    color: purple;
+    color: #ffffff;
     background-color: #000000;
     margin-top: 1.5rem;
     font-size: 15.3px;
@@ -390,4 +390,5 @@ li {
         padding-right: 20px;
         width: calc(100% - 40px);
     }
+
 }
